@@ -1,0 +1,9 @@
+rds ca cert needs to be imported into java trust store using keytool command 
+this rds cert changes every 4-5 years 
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html#UsingWithRDS.SSL.RegionCertificates  
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Concepts.General.SSL.html
+
+pem file can be imported directly  or create a secret in aws secret manager and same can be mounted to pod using csi driver 
+
